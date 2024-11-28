@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Content", system-ui;
+    background-color: #f4f4f4;
+    font-family: "Content", system-ui;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.payment-details, .order-summary {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details {
+    width: 60%;
+}
+
+.order-summary {
+    width: 35%;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: #007bff; */
+}
+
+.payment-method label {
+    display: flex;
+    align-items: center;
+}
+input[type="radio"] {
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.payment-method img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.payment-method button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.add-new {
+    color: #007bff;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-details input, .card-details select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Content", system-ui;
+}
+
+.checkbox {
+    width: 25%;
+    margin-top: -30px;
+}
+.checkbox input {
+    width: 15px;
+    /* margin-right: 10px; */
+    margin-top: 25px;
+}
+
+.pay-button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Content", system-ui;
+}
+
+.order-summary .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-summary img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.order-summary .order-info {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.order-summary .price {
+    font-weight: bold;
+}
+
+.summary p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary span {
+    font-weight: bold;
+}
+.order-summary p {
+    color: #000;
+    font-family: "Content", system-ui;
+    font-size: 16px;
+}
